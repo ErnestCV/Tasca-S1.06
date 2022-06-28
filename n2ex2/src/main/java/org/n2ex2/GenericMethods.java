@@ -4,7 +4,7 @@ import java.util.List;
 
 public class GenericMethods {
 
-    public static <T> void printGenericString(List<T> list) {
+    public static void printGenericString(List<?> list) {
 
         list.forEach(System.out::println);
 
